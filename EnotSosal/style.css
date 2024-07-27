@@ -299,13 +299,8 @@ body>div {}
     margin-bottom: 13px;
 }
 
-.ChangeVolume_root__HDxtA {
-    height: 65px;
-    margin-left: 30px;
-}
-
-.YMDRPC,
-.PSB {
+/*Надпись Пульсинка*/
+body > div > p {
     display: none;
 }
 
@@ -405,7 +400,7 @@ body>div>section>div>button {
 
     left: 0px;
     right: 0px;
-    padding: 0px;
+    padding: 5px;
 
 }
 
@@ -532,15 +527,27 @@ body>div {
     z-index: 1;
 }
 
-.PlayerBarDesktop_meta__6sm58 span {
-    /*- плеер*/
+.PlayerBarDesktop_meta__6sm58 {
+    display: block;
+    margin-left: 20px;
+}
+
+.PlayerBarDesktop_meta__6sm58 span{
     display: block;
     width: fit-content;
 }
 
+.ChangeVolume_root__HDxtA {
+    height: 60px;
+    margin-left: 25px;
+}
+
+body > div > section > div > button {
+    margin-left: 15px;
+}
+
 .PlayerBarDesktop_meta__6sm58 {
-    /*- плеер*/
-    display: block;
+    margin-left: 5px;
 }
 
 .SyncLyricsCard_card__6NmKa {
