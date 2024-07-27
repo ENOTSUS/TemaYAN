@@ -24,7 +24,7 @@ body {
     --ym-controls-color-primary-on_default-enabled: rgba(32, 57, 58, 0);
     --ym-controls-color-primary-text-hovered: #3d6d6d;
     --ym-slider-color-primary-enabled: #67a5a5;
-
+    --ym-logo-color-primary-variant: #00f1ff70
 }
 
 .PinsList_root__LN_2Z:before {
@@ -36,24 +36,49 @@ body {
     border-radius: 10px;
 }
 
-.MFfv7uDaaJhS_oiAzQNT {
-    --scrollbar-track-color: #3c6a6b;
-    --scrollbar-darkshadow-color: #3c6a6b;
-}
+
 
 .TrackModalDesktop_root_withWindows__72ONf {
     display: flex;
 }
 
 
+.pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar {
+    width: 15px !important;
+    z-index: 9999;
+}
 
-.pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar-thumb  {
+.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar {
+    width: 15px !important;
+    z-index: 9999;
+}
+
+.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
+    border:none 1px solid transparent;
+    border-radius:none var(--ym-radius-size-l);
+    background-clip:none content-box;
+    min-height: 50px;
+    z-index: 9999;
+}
+
+body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
     border: 1px solid #3d635abe !important;
     border-radius: 10px !important;
     background-clip: content-box !important;
     min-height: 5px !important;
     background-color: #29423fab !important;
     scrollbar-width: 5px;
+    z-index: 9999;
+}
+
+.pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar-thumb {
+    border: 1px solid #3d635abe !important;
+    border-radius: 10px !important;
+    background-clip: content-box !important;
+    min-height: 5px !important;
+    background-color: #29423fab !important;
+    scrollbar-width: 5px;
+    z-index: 9999;
 }
 
 
