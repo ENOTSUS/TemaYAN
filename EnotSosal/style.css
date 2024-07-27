@@ -53,19 +53,17 @@ body {
     z-index: 9999;
 }
 
-.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
-    border:none 1px solid transparent;
-    border-radius:none var(--ym-radius-size-l);
-    background-clip:none content-box;
-    min-height: 50px;
-    z-index: 9999;
+.UserID-Wrapper,
+.UserProfile_userId__Jb6Ix,
+.UserID-Wrapper_plu{
+    z-index: 99999;
 }
 
 body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
     border: 1px solid #3d635abe !important;
     border-radius: 10px !important;
     background-clip: content-box !important;
-    min-height: 5px !important;
+    min-height: 50x !important;
     background-color: #29423fab !important;
     scrollbar-width: 5px;
     z-index: 9999;
@@ -462,6 +460,8 @@ body>div>main>div>div>div>div>div>button>span {
     z-index: 99999 !important;
 }
 
+.Meta_artistCaption__JESZi,
+.Meta_title__GGBnH,
 .PageHeaderAlbumMeta_year_dot__TrSFr,
 .PageHeaderPlaylistMeta_description__edoVx,
 .PageHeaderBase_entityName__9Sj_Q,
@@ -889,3 +889,4 @@ input[placeholder],
 }
 
 /* *{outline: 1px solid rgba(255, 0, 221, 0.575);} */
+
