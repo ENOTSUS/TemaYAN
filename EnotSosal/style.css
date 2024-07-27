@@ -45,10 +45,17 @@ body {
     display: flex;
 }
 
-.pnFSEGiRmI9JuhUxbfVe {
-    --scrollbar-hidden: #3c6a6b;
 
+
+.pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar-thumb  {
+    border: 1px solid #3d635abe !important;
+    border-radius: 10px !important;
+    background-clip: content-box !important;
+    min-height: 5px !important;
+    background-color: #29423fab !important;
+    scrollbar-width: 5px;
 }
+
 
 /*Плеер*/
 .PlayerBar_root__cXUnU {
@@ -300,7 +307,7 @@ body>div {}
 }
 
 /*Надпись Пульсинка*/
-body > div > p {
+body>div>p {
     display: none;
 }
 
@@ -422,6 +429,13 @@ body>div>main>div>div>div>div>div>button>span {
     color: #72ddbb;
 }
 
+.UserProfile_dialog_desktop__0p006 {
+    border: 1px solid #00f1ff70;
+}
+
+.Content_colorScheme_dark {
+    z-index: 99999 !important;
+}
 
 .PageHeaderAlbumMeta_year_dot__TrSFr,
 .PageHeaderPlaylistMeta_description__edoVx,
@@ -532,7 +546,7 @@ body>div {
     margin-left: 20px;
 }
 
-.PlayerBarDesktop_meta__6sm58 span{
+.PlayerBarDesktop_meta__6sm58 span {
     display: block;
     width: fit-content;
 }
@@ -542,7 +556,7 @@ body>div {
     margin-left: 25px;
 }
 
-body > div > section > div > button {
+body>div>section>div>button {
     margin-left: 15px;
 }
 
@@ -579,7 +593,7 @@ body>div>main>div>div>div>div>button>span {
 
 .i5WuBm5mfG0mflk_1jH_ {
     border: 2px solid transparent;
-    border: 2px solid #2a585288 ;
+    border: 2px solid #2a585288;
     background: #264e466c;
     color: #6accc1;
     outline: none;
@@ -604,7 +618,7 @@ body>div>main>div>div>div>div>button>span {
     max-width: 80%;
     color: #3aa1a8;
     font-family: var(--ym-font-heading);
-    font-size: max(var(--ym-font-size-headline-xl),2.5vw);
+    font-size: max(var(--ym-font-size-headline-xl), 2.5vw);
     font-weight: var(--ym-font-weight-bold);
 }
 
