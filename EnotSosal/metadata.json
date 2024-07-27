@@ -1,0 +1,9 @@
+{
+    "image": "image.png",
+    "name": "EnotSosal",
+    "author": "___ENOT___",
+    "description": "Sigma 5",
+    "version": "1.7.6",
+    "script": "script.js",
+    "css": "style.css"
+}
