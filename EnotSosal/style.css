@@ -40,24 +40,29 @@ body {
     display: flex;
 }
 
+
 .pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar {
     width: 15px !important;
-    z-index: 9999;
+    z-index: 99999 !important;
+
 }
 
+
+body > div > main > div.VirtualScroll_root_notScrolling__x4qdd::-webkit-scrollbar,
 .VirtualScroll_root_notScrolling__x4qdd>div::-webkit-scrollbar {
     width: 15px !important;
     z-index: 9999;
+   
 }
 
-
+body > div > main > div.VirtualScroll_root_scroling_dsQ6K::-webkit-scrollbar,
 .VirtualScroll_root_scroling_dsQ6K::-webkit-scrollbar {
     width: 15px !important;
     z-index: 9999;
 }
 
 
-
+body > div > main > div > div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar,
 body>div>main>div>div>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar,
 body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar {
     width: 15px !important;
@@ -74,16 +79,9 @@ body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar {
 }
 
 
->div.VirtualScroll_root_scroling_dsQ6K {
-    border: 1px solid #3d635abe !important;
-    border-radius: 10px !important;
-    background-clip: content-box !important;
-    min-height: 50x !important;
-    background-color: #29423fab !important;
-    scrollbar-width: 5px;
-    z-index: 9999;
-}
 
+
+body > div> main > div> div.VirtualScroll_root_scroling_dsQ6K::-webkit-scrollbar-thumb,
 .VirtualScroll_root_scroling_dsQ6K::-webkit-scrollbar-thumb {
     border: 1px solid #3d635abe !important;
     border-radius: 10px !important;
@@ -104,6 +102,7 @@ body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar {
     z-index: 9999;
 }
 
+body > div > main > div > div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb,
 body>div>main>div>div>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb,
 body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
     border: 1px solid #3d635abe !important;
@@ -114,7 +113,7 @@ body>div>main>div.MFfv7uDaaJhS_oiAzQNT::-webkit-scrollbar-thumb {
     scrollbar-width: 5px;
     z-index: 9999;
 }
-
+body > div > main > div>div.VirtualScroll_root_notScrolling__x4qdd::-webkit-scrollbar-thumb,
 .pnFSEGiRmI9JuhUxbfVe::-webkit-scrollbar-thumb {
     border: 1px solid #3d635abe !important;
     border-radius: 10px !important;
