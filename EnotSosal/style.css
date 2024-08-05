@@ -13,14 +13,14 @@ body {
 .ym-dark-theme {
 
     /*Основа внутрянка*/
-    --ym-background-color-primary-enabled-content: #152525;
+    --ym-background-color-primary-enabled-content: #2e574e;
     /*Плеер*/
-    --ym-background-color-secondary-enabled-blur: #20393a;
+    --ym-background-color-secondary-enabled-blur: #2e574e;
     /*отсновной цвет*/
-    --ym-background-color-primary-enabled-basic: #20393a;
+    --ym-background-color-primary-enabled-basic: #2e574e;
     /*отключеный Плеер*/
-    --ym-background-color-primary-enabled-player: #152525;
-    --ym-controls-color-primary-default-hovered: #152525;
+    --ym-background-color-primary-enabled-player: #2e574e;
+    --ym-controls-color-primary-default-hovered: #2e574e;
     --ym-controls-color-primary-on_default-enabled: rgba(32, 57, 58, 0);
     --ym-controls-color-primary-text-hovered: #3d6d6d;
     --ym-slider-color-primary-enabled: #67a5a5;
@@ -162,10 +162,10 @@ body>div {}
     position: fixed;
     left: 0px;
     right: 5px;
-    top: 30px;
-    bottom: -10px;
-    --player-cover-width: 150px;
-    --player-cover-height: 150px;
+    top: 50px;
+    bottom: 30px;
+    --player-cover-width: 180px;
+    --player-cover-height: 180px;
     justify-content: center;
 }
 
@@ -230,10 +230,11 @@ body>div {}
 
 .VibeBlock_root__z7LtR {
     /*- Моя волна*/
+    
     margin-top: 10px;
     border-radius: 160px 160px 160px 160px;
     overflow: visible;
-    width: -webkit-fill-available;
+    
     margin-left: 0px;
     height: 760px;
     min-height: 0px;
@@ -476,7 +477,7 @@ body>div>main>div>div>div>div>div>button>span {
 .PlaylistCard_titleLink__H8qEc,
 .Z_WIr2W8JU4MPQek3hgR,
 .nSU6fV9y80WrZEfafvww {
-    color: #67a5a5;
+    color: #5edab4;
 }
 
 .RestrictionButton_title__UZn0O {
@@ -645,11 +646,11 @@ body>div>main>div>div>div>div>button>span._3_Mxw7Si7j2g4kWjlpR {
 }
 
 body>div>main>div>div>div>div>button>span::after {
-    content: "ГОЙДА";
+    content: "Квадробирка";
     position: absolute;
     visibility: visible;
-    color: #52a896;
-    left: 60px;
+    color: #448873;
+    left: -1px;
 }
 
 
@@ -668,6 +669,9 @@ body>div>main>div>div>div>div>button>span::after {
     color: #7ee6c3;
 }
 
+body>div>main>div>div>div>div>div>div>span {
+    color: #448873
+}
 
 .GRggPQ1rZgvcyCxPPgvw {
     outline: none;
