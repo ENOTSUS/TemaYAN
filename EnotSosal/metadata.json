@@ -3,7 +3,7 @@
     "name": "EnotSosal",
     "author": "___ENOT___",
     "description": "Sigma 5",
-    "version": "1.7.8",
+    "version": "1.7.9",
     "script": "script.js",
     "css": "style.css"
 }
