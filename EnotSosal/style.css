@@ -76,7 +76,12 @@ body {
 
 .xfFtKQpgAYvC2jI1tBtS {
     /*- панель */
-
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.NavbarDesktop_collapseButton__XQh9d{
+    display: none;
 }
 
 /*- так и не понял чё за хуйня*/
