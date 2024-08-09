@@ -268,7 +268,7 @@ setInterval(() => {
         document.head.appendChild(useStyleElement);
     }
     useStyleElement.textContent = `
-        :root {
+            :root {
             --ym-background-color-primary-enabled-basic: var(--color-dark-8) !important;
             --ym-surface-color-primary-enabled-list: var(--color-light-1-4) !important;
             --ym-background-color-primary-enabled-content: var(--color-dark-6) !important;
@@ -294,7 +294,7 @@ setInterval(() => {
             --ym-controls-color-secondary-on_outline-disabled: var(--color-light-5-5)!important;
             --sync-lyrics-card-inset-bottom-vh: -11.5% !important;
             --sync-lyrics-card-inset-bottom-dvh: -11.5% !important;
-           
+        
         }
 
         .ChangeVolume_root__HDxtA {
@@ -349,10 +349,7 @@ setInterval(() => {
             font-size: 35px;
         }
 
-        -webkit-scrollbar-thumb{
-        background-color: var(--color-dark-7-9)
-        border: var(--color-light-10-9)
-        {}
+
 
         .SyncLyricsScroller_line_active__6lLvH::before {
             content: '';
@@ -400,7 +397,7 @@ setInterval(() => {
             to {
                 width: 100%;
             }
-        }
+      
     `;
 }, 1000);
 

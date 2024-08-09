@@ -6,10 +6,7 @@ body {
     height: unset;
 }
 
-.DefaultLayout_content__md70Z {
-    /*- так и не понял чё за хуйня*/
-    border-radius: 10px;
-}
+
 
 .TrackModalDesktop_root_withWindows__72ONf {
     display: flex;
@@ -459,9 +456,10 @@ body>div>main>div>div>div>div>button>span::after {
     content: "Квадробирка";
     position: absolute;
     visibility: visible;
-    color: var(--color-light-10);
+    color: var(--color-light-10) !important;
     left: -1px;
 }
+
 
 
 .FullscreenPlayerDesktop_root___8vo1.FullscreenPlayerDesktop_important__dGfiL {
@@ -470,8 +468,5 @@ body>div>main>div>div>div>div>button>span::after {
 }
 
 
-.Meta_artists__VnR52 {
-    text-align: justify;
-}
 
 /* *{outline: 1px solid rgba(255, 0, 221, 0.575);} */
