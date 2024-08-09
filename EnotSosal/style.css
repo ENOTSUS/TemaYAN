@@ -2,31 +2,6 @@ body {
     background-color: #000000;
 }
 
-.ym-light-theme {
-    --ym-background-color-primary-enabled-content: #e8e3ff;
-    --ym-background-color-secondary-enabled-blur: s#5900ff;
-    --ym-background-color-primary-enabled-basic: #ded9f5;
-    --ym-background-color-primary-enabled-player: #e8e3ff;
-
-}
-
-.ym-dark-theme {
-
-    /*Основа внутрянка*/
-    --ym-background-color-primary-enabled-content: #2e574e;
-    /*Плеер*/
-    --ym-background-color-secondary-enabled-blur: #2e574e;
-    /*отсновной цвет*/
-    --ym-background-color-primary-enabled-basic: #2e574e;
-    /*отключеный Плеер*/
-    --ym-background-color-primary-enabled-player: #2e574e;
-    --ym-controls-color-primary-default-hovered: #2e574e;
-    --ym-controls-color-primary-on_default-enabled: rgba(32, 57, 58, 0);
-    --ym-controls-color-primary-text-hovered: #3d6d6d;
-    --ym-slider-color-primary-enabled: #67a5a5;
-    --ym-logo-color-primary-variant: #00f1ff70
-}
-
 .PinsList_root__LN_2Z:before {
     height: unset;
 }
@@ -40,16 +15,10 @@ body {
     display: flex;
 }
 
-
-
-
 ::-webkit-scrollbar {
     width: 15px !important;
     z-index: 9999;
 }
-
-
-
 
 .UserID-Wrapper,
 .UserProfile_userId__Jb6Ix,
@@ -58,11 +27,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    border: 1px solid #3d635abe !important;
+    border: 1px solid var(--color-light-4-6) !important;
     border-radius: 10px !important;
     background-clip: content-box !important;
     min-height: 50x !important;
-    background-color: #29423fab !important;
+    background-color: var(--color-dark-7-9) !important;
     scrollbar-width: 5px;
     z-index: 9999;
 }
@@ -81,10 +50,17 @@ body {
 }
 
 .TitleBar_button__9MptL {
-    background: #152525;
+    background: var(--color-dark-3);
+    border-color: var(--color-light-10);
     border-radius: 50px 50px 50px 50px;
     z-index: 9999;
 
+}
+
+.CollectionPage_collectionColor__M5l1f {
+    position: absolute;
+    left: 170px;
+    color: var(--color-light-10);
 }
 
 .PlayerBarDesktop_meta6sm58 {
@@ -94,10 +70,7 @@ body {
     left: 7.2%;
 }
 
-.PageHeaderPlaylist_playControl__yRQfm {
-    background-color: #243f3f;
-    color: #7ee6c3;
-}
+
 
 .zpkgiiHgDpbBThy6gavq {
     /*- панель значки*/
@@ -230,11 +203,11 @@ body>div {}
 
 .VibeBlock_root__z7LtR {
     /*- Моя волна*/
-    
+
     margin-top: 10px;
-    border-radius: 160px 160px 160px 160px;
+
     overflow: visible;
-    
+
     margin-left: 0px;
     height: 760px;
     min-height: 0px;
@@ -286,10 +259,7 @@ body>div {}
     z-index: 9999;
 }
 
-.DevPanel_panel__LnoO2 {
-    /*- что то для плеера лучше не трогать*/
-    background: #000000;
-}
+
 
 /*- надпись бета */
 .MainPage_beta__y32vb,
@@ -327,35 +297,17 @@ body>div>p {
     position: fixed;
     content: "PulseSync Сосал?";
     visibility: visible;
-    color: #FFC0CB;
-
+    color: var(--color-light-10);
     left: 50%;
     margin-left: -50px;
 }
-
-
-.UserProfile_userName__PTRuJ {
-    color: #5ba6aa;
-}
-
-.A4bDkbQHkwWNGqxO9qhW:focus,
-.A4bDkbQHkwWNGqxO9qhW:focus svg,
-.A4bDkbQHkwWNGqxO9qhW:hover,
-.A4bDkbQHkwWNGqxO9qhW:hover svg,
-.mAd9pgMkWVX5ktCgYINQ,
-.mAd9pgMkWVX5ktCgYINQ svg {
-    color: #00f1ff70;
-}
-
 
 .QualitySettingsContextMenu_root__fW5GK {
     position: relative !important;
     -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     -webkit-box-shadow: 0 4px 12px 0 var(--ym-shadow-s);
-    box-shadow: 0 4px 12px 0 #315a5cf0;
-    border: 1px solid #387e83;
-    background-color: #153638c9;
+    box-shadow: 0 4px 12px 0 var(--color-dark-3-9);
     -webkit-padding-after: var(--ym-spacer-size-xs);
     padding-block-end: var(--ym-spacer-size-xs);
     height: 100%;
@@ -377,7 +329,6 @@ body>div>p {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: var(--ym-radius-size-m);
-    background: #67a5a5;
     cursor: pointer;
     width: var(--seek-before-width);
     height: 4px;
@@ -393,7 +344,7 @@ body>div>p {
     -moz-appearance: none;
     appearance: none;
     border-radius: var(--ym-radius-size-m);
-    background-color: #7ee9e9 transparent;
+
     width: 100%;
 }
 
@@ -424,121 +375,6 @@ body>div>section>div>button {
 }
 
 
-.DUr_69Fyw65jd0Rl5YT5,
-.DUr_69Fyw65jd0Rl5YT5:not(:disabled):hover .iiQCrwoJG8VTvB3iz2I6 {
-    color: #00f1ff70;
-    will-change: color, fill;
-}
-
-
-
-
-body>div>main>div>div>div>div>div>button>span {
-    color: #67a5a5;
-}
-
-._oBLf5gprWsKjCw4Ce58 {
-    color: #72ddbb;
-}
-
-.UserProfile_dialog_desktop__0p006 {
-    border: 1px solid #00f1ff70;
-}
-
-.Content_colorScheme_dark {
-    z-index: 99999 !important;
-}
-
-.Meta_artistCaption__JESZi,
-.Meta_title__GGBnH,
-.PageHeaderAlbumMeta_year_dot__TrSFr,
-.PageHeaderPlaylistMeta_description__edoVx,
-.PageHeaderBase_entityName__9Sj_Q,
-.PageHeaderPlaylistMeta_root__9SHZ0,
-.PageHeaderTitle_title__caKyB,
-.SearchEmpty_icon__NYKMM,
-.SearchEmpty_subtitle__2TlGa,
-.LikesAndHistoryItem_subtitle__ghuKi,
-.Tab_subtitle__fLp9S,
-.Pin_subtitle__rb8Gq,
-.Pin_title__Jw5WW,
-.cM0M40YHieFFCTYRgOZa,
-.QualitySettingsContextMenu_item_option__SSxha,
-.PlayerBarDesktop_settingsButton__jLkVn,
-.J9wTKytjOWG73QMoN5WP,
-.YjRa1ZjM_lXFlrfS7jcu,
-.CollectionPage_description__A3dny,
-.BlockHeader_description__hAk9D,
-.mxSPe5xpZnie9gpIqacd,
-.l3tE1hAMmBj2aoPPwU08,
-.o_v2ds2BaqtzAsRuCVjw,
-.Vi7Rd0SZWqD17F0872TB,
-.buOTZq_TKQOVyjMLrXvB,
-.PlaylistCard_titleLink__H8qEc,
-.Z_WIr2W8JU4MPQek3hgR,
-.nSU6fV9y80WrZEfafvww {
-    color: #5edab4;
-}
-
-.RestrictionButton_title__UZn0O {
-    color: #67a5a5;
-}
-
-.VibeSettingsBlock_root__t8Hp_ {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-shadow: 0 1px 24px 0 var(--ym-shadow-xl), 0 -1px 24px 0 var(--ym-shadow-s);
-    box-shadow: 0 1px 24px 0 #315a5cf0, 0 -1px 24px 0 #387e83;
-    border: 1px solid #00f1ff70;
-    border-radius: var(--ym-radius-size-xl);
-    background-color: #153638c9;
-    -webkit-padding-before: var(--ym-spacer-size-m);
-    padding-block-start: var(--ym-spacer-size-m);
-    -webkit-padding-after: var(--ym-spacer-size-m);
-    padding-block-end: var(--ym-spacer-size-m);
-    -webkit-padding-start: var(--ym-spacer-size-m);
-    padding-inline-start: var(--ym-spacer-size-m);
-    -webkit-padding-end: var(--ym-spacer-size-m);
-    padding-inline-end: var(--ym-spacer-size-m);
-    -webkit-backdrop-filter: saturate(180%) blur(15px);
-    backdrop-filter: saturate(180%) blur(15px);
-    height: 100%;
-    overflow-y: auto;
-    -ms-scroll-snap-type: y mandatory;
-    scroll-snap-type: y mandatory;
-    -webkit-transition: scrollbar-color .2s ease-in-out;
-    transition: scrollbar-color .2s ease-in-out;
-    scrollbar-color: var(--ym-surface-color-primary-enabled-entity) transparent;
-}
-
-.A4bDkbQHkwWNGqxO9qhW,
-.A4bDkbQHkwWNGqxO9qhW svg {
-    will-change: color;
-    -webkit-transition: color var(--ym-duration-transition);
-    transition: color var(--ym-duration-transition);
-    color: #67a5a5;
-}
-
-.mAd9pgMkWVX5ktCgYINQ svg {
-    color: #00f1ff70;
-}
-
-.xENlRAFvRskKnt8LUObC {
-    color: #00f1ff70;
-}
-
-.Xx9Tg5ugzg1pkf8Zh421 {
-    color: #67a5a5;
-}
-
 body>div {
     display: flex;
     justify-content: center;
@@ -546,7 +382,7 @@ body>div {
     top: 0px;
     left: 0px;
     right: 0px;
-    color: rgba(255, 255, 255, 0.29);
+    color: var(--color-dark-1-10);
     font-family: var(--ym-font-text);
     font-style: normal;
     font-weight: 100;
@@ -578,19 +414,7 @@ body>div>section>div>button {
     margin-left: 5px;
 }
 
-.SyncLyricsCard_card__6NmKa {
-    /*- плеер текст*/
-    position: fixed;
-    left: 50px;
-    top: 50px;
-    right: 150px;
-    background: rgba(56, 107, 105, 0.219);
-    padding: 10px;
-    border-radius: 5px;
-    border-width: 1;
-    border-color: rgba(55, 117, 126, 0.61);
-    border-style: dotted;
-}
+
 
 .UserProfile_plusLink__NhVsU {
     /*- ебучий плюс*/
@@ -605,13 +429,7 @@ body>div>main>div>div>div>div>button>span {
     visibility: hidden;
 }
 
-.i5WuBm5mfG0mflk_1jH_ {
-    border: 2px solid transparent;
-    border: 2px solid #2a585288;
-    background: #264e466c;
-    color: #6accc1;
-    outline: none;
-}
+
 
 .SyncLyricsScroller_root__amiLm {
     -webkit-padding-before: 40vh;
@@ -626,15 +444,7 @@ body>div>main>div>div>div>div>button>span {
     height: 100%;
 }
 
-.SyncLyricsLine_root__r62BN {
-    display: block;
-    width: 100%;
-    max-width: 80%;
-    color: #3aa1a8;
-    font-family: var(--ym-font-heading);
-    font-size: max(var(--ym-font-size-headline-xl), 2.5vw);
-    font-weight: var(--ym-font-weight-bold);
-}
+
 
 
 body>div>main>div>div>div>div>button>span._3_Mxw7Si7j2g4kWjlpR::after {
@@ -649,7 +459,7 @@ body>div>main>div>div>div>div>button>span::after {
     content: "Квадробирка";
     position: absolute;
     visibility: visible;
-    color: #448873;
+    color: var(--color-light-10);
     left: -1px;
 }
 
@@ -662,89 +472,6 @@ body>div>main>div>div>div>div>button>span::after {
 
 .Meta_artists__VnR52 {
     text-align: justify;
-}
-
-.PageHeaderAlbum_playControl__fFyS9 {
-    background-color: #243f3f;
-    color: #7ee6c3;
-}
-
-body>div>main>div>div>div>div>div>div>span {
-    color: #448873
-}
-
-.GRggPQ1rZgvcyCxPPgvw {
-    outline: none;
-    border: none;
-    background: none;
-    width: 100%;
-    height: 100%;
-    color: #00f1ff70;
-    line-height: var(--ym-font-line-height-label-m);
-    letter-spacing: normal;
-    font-family: var(--ym-font-text);
-    font-size: var(--ym-font-size-label-m);
-    font-weight: var(--ym-font-weight-medium);
-    font-style: normal;
-}
-
-.LoJPNHBhYAkQh7hBQYIP {
-    --ym-duration-transition: 0.1s;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    will-change: color;
-    -webkit-transition: color var(--ym-duration-transitiony) ease-in-out;
-    transition: color var(--ym-duration-transitiony) ease-in-out;
-    color: #7ee6c3;
-}
-
-.SearchPage_input__TSbxK {
-    -webkit-margin-start: var(--ym-spacer-size-xxl);
-    margin-inline-start: var(--ym-spacer-size-xxl);
-    -webkit-margin-end: var(--ym-spacer-size-xxl);
-    margin-inline-end: var(--ym-spacer-size-xxl);
-    background-color: #243f3f;
-    color: #152525;
-
-}
-
-.kAYDswAvA1AJoAzRV4rY:active,
-.kAYDswAvA1AJoAzRV4rY:focus-within {
-    -webkit-box-shadow: 0 0 0 2px #2e5a50;
-    box-shadow: 0 0 0 2px #2c5248;
-    background-color: #21473f5e;
-}
-
-.SearchPage_filter__5xzTL {
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 2px solid #2a585288;
-    border-radius: var(--ym-radius-size-xxxl);
-    background-color: #264e466c;
-    max-width: 200px;
-    height: 100%;
-    scroll-snap-align: start;
-    list-style-type: none;
-}
-
-.SearchPage_filter_selected__FOfyJ {
-    border-color: #59c2adb4;
-}
-
-.nHWc2sto1C6Gm0Dpw_l0:hover {
-    background: hsla(167, 27%, 33%, 0.384);
-}
-
-.YBgyycmmzZchX_EgLcrA:focus-within .LoJPNHBhYAkQh7hBQYIP {
-    color: #59c2adb4;
-}
-
-input[placeholder],
-[placeholder],
-*[placeholder] {
-    color: #59c2adb4 !important;
 }
 
 /* *{outline: 1px solid rgba(255, 0, 221, 0.575);} */
