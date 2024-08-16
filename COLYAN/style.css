@@ -1,0 +1,477 @@
+body {
+    background-color: #000000;
+}
+
+.PinsList_root__LN_2Z:before {
+    height: unset;
+}
+
+
+
+.TrackModalDesktop_root_withWindows__72ONf {
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 15px !important;
+    z-index: 9999;
+}
+
+.UserID-Wrapper,
+.UserProfile_userId__Jb6Ix,
+.UserID-Wrapper_plu {
+    z-index: 99999;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid var(--color-light-4-6) !important;
+    border-radius: 10px !important;
+    background-clip: content-box !important;
+    min-height: 50x !important;
+    background-color: var(--color-dark-7-9) !important;
+    scrollbar-width: 5px;
+    z-index: 9999;
+}
+
+
+/*Плеер*/
+.PlayerBar_root__cXUnU {
+    /*- маштаб плеера*/
+    grid-template-columns: repeat(1, 95%);
+    height: -webkit-fill-available;
+    width: 200px;
+    -webkit-margin-before: 0px;
+    margin-bottom: 8%;
+    margin-block-start: 170px;
+    border-width: 0;
+}
+
+.TitleBar_button__9MptL {
+    background: var(--color-dark-3);
+    border-color: var(--color-light-10);
+    border-radius: 50px 50px 50px 50px;
+    z-index: 9999;
+
+}
+
+.CollectionPage_collectionColor__M5l1f {
+    position: absolute;
+    left: 170px;
+    color: var(--color-light-10);
+}
+
+.PlayerBarDesktop_meta6sm58 {
+    /*- так и не понял чё за хуйня*/
+    position: relative;
+    bottom: 0px;
+    left: 7.2%;
+}
+
+
+
+.zpkgiiHgDpbBThy6gavq {
+    /*- панель значки*/
+
+}
+
+.xfFtKQpgAYvC2jI1tBtS {
+    /*- панель */
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.NavbarDesktop_collapseButton__XQh9d{
+    display: none;
+}
+
+/*- так и не понял чё за хуйня*/
+/*.o_v2ds2BaqtzAsRuCVjw::before {
+   
+    content: url("http://127.0.0.1:19582/assets/pizda.jpg");
+    display: flex;
+    position: absolute;
+    z-index: 22222;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 999px;
+    width: 32px;
+    height: 32px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+
+} */
+
+body>div {}
+
+.UserID-Avatar::before .DefaultLayout_root__7J0wo {
+    width: 100%;
+    grid-template:
+        "navbar playerbar content"
+        "navbar playerbar content" auto/auto 1fr;
+    grid-template-columns: fit-content fit-content auto;
+}
+
+.PlayerBarDesktop_infoCard__tnLS6,
+.PlayerBarDesktop_info__56v53 {
+    flex-direction: column;
+}
+
+/*- левая понель */
+.DefaultLayout_content__md70Z {
+    border-radius: 10px 10px 10px 10px;
+    grid-area: content;
+    position: fixed;
+    left: 199px;
+    margin-right: 70px;
+    top: 37px;
+    bottom: 12px;
+}
+
+.PlayerBarDesktop_root__d2Hwi {
+    /*- плеер грани*/
+    border-radius: 10px 10px 10px 10px;
+    grid-area: content;
+    position: fixed;
+    left: 0px;
+    right: 5px;
+    top: 50px;
+    bottom: 30px;
+    --player-cover-width: 180px;
+    --player-cover-height: 180px;
+    justify-content: center;
+}
+
+.PlayerBarDesktop_sonata__sJHY {
+    /*- так и не понял чё за хуйня*/
+    position: relative;
+    bottom: 80px;
+}
+
+.PlayerBarDesktop_infoCard__tnLS6 {
+    /*- так и не понял чё за хуйня*/
+    --player-controls-preserved-width: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlayerBar_root__cXUnU * .cpeagBA1_PblpJn8Xgtv {
+    /*- что то для плеера лучше не трогать*/
+    transition: ease-in-out all 0.1s;
+    background: #ffffff09;
+}
+
+.PlayerBar_root__cXUnU * .cpeagBA1_PblpJn8Xgtv:hover {
+    /*- что то для плеера лучше не трогать*/
+    background: #8be8ff1c;
+    scale: 1.1;
+}
+
+.PlayerBar_root__cXUnU * .cpeagBA1_PblpJn8Xgtv:disabled {
+    /*- что то для плеера лучше не трогать*/
+    background: #00000000;
+    display: clip;
+}
+
+._MWOVuZRvUQdXKTMcOPx {
+    /*- так и не понял чё за хуйня*/
+    opacity: 1;
+}
+
+.SonataControlsDesktop_root__oluUH {
+    /*- так и не понял чё за хуйня*/
+    scale: 1;
+}
+
+.SHvrm0VRiLVwGqJJjNO8 {
+    /*- так и не понял чё за хуйня*/
+    transition: ease-in-out all 0.1s;
+    height: 8px;
+    padding: 2px;
+    scale: 1;
+}
+
+.SHvrm0VRiLVwGqJJjNO8:before {
+    /*- толщина полоски плеера*/
+    height: 3px;
+}
+
+.SonataControlsDesktop_sonataButtons__ux0qT {
+    /*- расход кнопок перехода трека*/
+    gap: 10px;
+}
+
+.VibeBlock_root__z7LtR {
+    /*- Моя волна*/
+
+    margin-top: 10px;
+
+    overflow: visible;
+
+    margin-left: 0px;
+    height: 760px;
+    min-height: 0px;
+}
+
+.MainPage_header__lPh0v {
+    /*- так и не понял чё за хуйня*/
+    overflow: visible;
+    width: -webkit-fill-available;
+    margin-left: -16px;
+    height: 80px;
+}
+
+.Skeleton_headerContainer__pRHVj {
+    /*- хуйня расход где написано больше открытий */
+    margin-block-start: -35px;
+}
+
+.PinsList_root__LN_2Z {
+    /*- закрепы */
+    display: clip;
+    position: fixed;
+    height: -webkit-fill-available;
+    width: 220px;
+    right: -2.6px;
+    top: 30px;
+    bottom: 15px;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.Content_rootOld__g85_m {
+    /*- ползунок*/
+    right: 149px;
+}
+
+.NavbarDesktop_user__dzbuH {
+    /*- так и не понял чё за хуйня*/
+    position: absolute;
+    bottom: 0px;
+}
+
+.Xx9Tg5ugzg1pkf8Zh421 {
+    /*- панель маштаб*/
+    margin-top: 13px;
+    min-height: 15px;
+    max-height: 25px;
+    left: -10px;
+    z-index: 9999;
+}
+
+
+
+/*- надпись бета */
+.MainPage_beta__y32vb,
+.YMDRPC {
+    display: none;
+}
+
+.NavbarDesktop_logo__Z4jGx,
+/*- лого яндекса*/
+.Pin_contextMenu__WGmhp {
+    display: none;
+}
+
+.Footer_root__ugyur,
+/*- так и не понял чё за хуйня*/
+.CollectionPage_description__A3dny,
+.SonataControlsDesktop_buttonContainer__PczhH,
+.mdbxU6IWInQTsVjwnapn,
+.Pin_meta__MzX_7 {
+    display: flex;
+}
+
+.LikesAndHistory_carousel__579RD {
+    /*- так и не понял чё за хуйня*/
+    margin-top: -50px;
+    margin-bottom: 13px;
+}
+
+/*Надпись Пульсинка*/
+body>div>p {
+    display: none;
+}
+
+.TitleBar_root__QjdOZ:before {
+    position: fixed;
+    content: "PulseSync Сосал?";
+    visibility: visible;
+    color: var(--color-light-10);
+    left: 50%;
+    margin-left: -50px;
+}
+
+.QualitySettingsContextMenu_root__fW5GK {
+    position: relative !important;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    -webkit-box-shadow: 0 4px 12px 0 var(--ym-shadow-s);
+    box-shadow: 0 4px 12px 0 var(--color-dark-3-9);
+    -webkit-padding-after: var(--ym-spacer-size-xs);
+    padding-block-end: var(--ym-spacer-size-xs);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+    -webkit-transition: scrollbar-color .2s ease-in-out;
+    transition: scrollbar-color .2s ease-in-out;
+    scrollbar-color: var(--ym-surface-color-primary-enabled-entity) transparent;
+}
+
+.NavbarDesktop_ndaBadge__moML6 {
+    display: none;
+}
+
+.JkKcxRVvjK7lcakkEliC:before {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: var(--ym-radius-size-m);
+    cursor: pointer;
+    width: var(--seek-before-width);
+    height: 4px;
+    content: "";
+    inset-block-start: 50%;
+    inset-inline-start: 0;
+
+}
+
+.JkKcxRVvjK7lcakkEliC {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--ym-radius-size-m);
+
+    width: 100%;
+}
+
+body>div>section>div>button>span {
+
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+}
+
+body>div>section>div>button>span {
+
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+}
+
+body>div>section>div>button {
+    margin-left: 10px;
+}
+
+.PlayerBarDesktop_settingsButton__jLkVn {
+
+    left: 0px;
+    right: 0px;
+    padding: 5px;
+
+}
+
+
+body>div {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: var(--color-dark-1-10);
+    font-family: var(--ym-font-text);
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: normal;
+    line-height: var(--ym-font-line-height-label-s);
+    z-index: 1;
+}
+
+.PlayerBarDesktop_meta__6sm58 {
+    display: block;
+    margin-left: 20px;
+}
+
+.PlayerBarDesktop_meta__6sm58 span {
+    display: block;
+    width: fit-content;
+}
+
+.ChangeVolume_root__HDxtA {
+    height: 60px;
+    margin-left: 25px;
+}
+
+body>div>section>div>button {
+    margin-left: 15px;
+}
+
+.PlayerBarDesktop_meta__6sm58 {
+    margin-left: 5px;
+}
+
+
+
+.UserProfile_plusLink__NhVsU {
+    /*- ебучий плюс*/
+    display: none;
+}
+
+/*- значёк паузы у моей волны*/
+.DzJFnuf7XgdkFh28JAsM {}
+
+/*- ГОЙДА*/
+body>div>main>div>div>div>div>button>span {
+    visibility: hidden;
+}
+
+
+
+.SyncLyricsScroller_root__amiLm {
+    -webkit-padding-before: 40vh;
+    padding-block-start: 40vh;
+    -webkit-padding-before: 40dvh;
+    padding-block-start: 40dvh;
+    -webkit-padding-after: calc(50vh - 170px);
+    padding-block-end: calc(50vh - 170px);
+    -webkit-padding-after: calc(50dvh - 170px);
+    padding-block-end: calc(50dvh - 170px);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+body>div>main>div>div>div>div>button>span._3_Mxw7Si7j2g4kWjlpR::after {
+    visibility: hidden;
+}
+
+body>div>main>div>div>div>div>button>span._3_Mxw7Si7j2g4kWjlpR {
+    visibility: visible;
+}
+
+body>div>main>div>div>div>div>button>span::after {
+    content: "Квадробирка";
+    position: absolute;
+    visibility: visible;
+    color: var(--color-light-10) !important;
+    left: -1px;
+}
+
+
+
+.FullscreenPlayerDesktop_root___8vo1.FullscreenPlayerDesktop_important__dGfiL {
+    --max-track-card-size: 80vw;
+    transform: translate(-50%, 0%) !important;
+}
+
+
+
+/* *{outline: 1px solid rgba(255, 0, 221, 0.575);} */
