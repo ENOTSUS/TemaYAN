@@ -36,9 +36,9 @@ body {
 
 /*Плеер*/
 .PlayerBar_root__cXUnU {
-    /*- маштаб плеера*/
-    grid-template-columns: repeat(1, 95%);
+    grid-template-columns: repeat(1,85%);
     height: -webkit-fill-available;
+    min-height: 55%;
     width: 200px;
     -webkit-margin-before: 0px;
     margin-bottom: 8%;
@@ -131,16 +131,15 @@ body>div {}
 }
 
 .PlayerBarDesktop_root__d2Hwi {
-    /*- плеер грани*/
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
     grid-area: content;
     position: fixed;
     left: 0px;
-    right: 5px;
-    top: 50px;
-    bottom: 30px;
-    --player-cover-width: 180px;
-    --player-cover-height: 180px;
+    right: 12px;
+    top: 32px;
+    bottom: 1px;
+    --player-cover-width: 100%;
+    --player-cover-height: 100%;
     justify-content: center;
 }
 
@@ -368,12 +367,10 @@ body>div>section>div>button {
     margin-left: 10px;
 }
 
-.PlayerBarDesktop_settingsButton__jLkVn {
-
-    left: 0px;
-    right: 0px;
-    padding: 5px;
-
+[data-test-id="SOUND_QUALITY_BUTTON"] {
+    position: fixed;
+    margin-left: 110px;
+    margin-top: -32px;
 }
 
 
@@ -395,7 +392,7 @@ body>div {
 
 .PlayerBarDesktop_meta__6sm58 {
     display: block;
-    margin-left: 20px;
+
 }
 
 .PlayerBarDesktop_meta__6sm58 span {
@@ -409,8 +406,10 @@ body>div {
 }
 
 body>div>section>div>button {
-    margin-left: 15px;
+    margin-left: 20px;
 }
+
+
 
 .PlayerBarDesktop_meta__6sm58 {
     margin-left: 5px;
